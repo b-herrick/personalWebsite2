@@ -1,0 +1,85 @@
+body{
+    background-color: pink;
+}
+nav{
+    display: flex;
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    justify-content: space-around;
+    border: solid black 1px;
+}
+.curr{
+    background-color: bisque;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.pics{
+    display:flex;
+    justify-content: space-around;
+    justify-content: center;
+    
+}
+.cleo{
+    /*display: flex;*/
+    width: 30%;
+    height:auto;
+    border: solid orange 5px;
+}
+.friends{
+    width:53%;
+    height:auto;
+    border: solid lightgreen 5px;
+}
+.quote{
+    font-family: cursive;
+    text-align: right;
+    color:navy;
+    background-color: azure;
+}
+.interest{
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: flex-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.hobby{
+    display:flex;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-around;
+}
+img{
+    height: 100px;
+    border: solid black 3px;
+    margin: 5px;
+}
+.textual{
+    display: flex;
+    flex-wrap: wrap;
+}
+.phed{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+.proj{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.strive{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+input{
+    width:20%;
+}
+.bigger{
+    height: 100px;
+    width: 40%;
+}
