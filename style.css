@@ -51,11 +51,18 @@ nav{
     display:flex;
     font-family: 'Courier New', Courier, monospace;
     justify-content: space-around;
+    float: inline-end;
 }
 img{
     height: 100px;
     border: solid black 3px;
     margin: 5px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
 }
 .textual{
     display: flex;
